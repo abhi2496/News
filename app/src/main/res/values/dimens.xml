@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingTenDp">10dp</dimen>
+    <dimen name="mediumText">16sp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="largeText">22sp</dimen>
+    <dimen name="marginFiveDp">5dp</dimen>
+    <dimen name="cornerRadius">16dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="zeroDp">0dp</dimen>
+</resources>

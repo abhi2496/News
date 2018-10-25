@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="noInternet">No Internet!</string>
+    <string name="testTopic">Brain</string>
+    <string name="testTitle">Title</string>
+    <string name="testAuthor">Jim Kwik</string>
+    <string name="testDate">15 aug</string>
+    <string name="noNews">No News Available!</string>
+</resources>
