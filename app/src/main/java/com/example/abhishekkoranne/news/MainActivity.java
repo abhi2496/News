@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
 
     private static final int NEWS_LOADER_ID = 1;
 
-    private static final String THEGUARDIAN_NEWS_REQUEST_URL = "https://content.guardianapis.com/search?api-key=b8550f32-d817-498a-84d2-29335d3db618";
+    private static final String THEGUARDIAN_NEWS_REQUEST_URL = "https://content.guardianapis.com/search?api-key=b8550f32-d817-498a-84d2-29335d3db618&show-tags=contributor";
 
     private TextView emptyStateTextView;
     private ProgressBar loadingSpinner;

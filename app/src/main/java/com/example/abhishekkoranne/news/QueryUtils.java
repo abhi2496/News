@@ -108,7 +108,13 @@ public class QueryUtils {
                 JSONObject currentNews = newsArray.getJSONObject(i);
                 String newsTitle = currentNews.getString("webTitle");
                 String newsTopic = currentNews.getString("sectionName");
-                String publisherName = "";
+                JSONArray tags = currentNews.getJSONArray("tags");
+                StringBuilder sb = new StringBuilder();
+                for (int j=0; j<tags.length(); j++) {
+                    JSONObject authors = tags.getJSONObject(j);
+                    sb.append(authors.getString("webTitle")+ " ");
+                }
+                String publisherName =sb.toString();
                 String newsUrl = currentNews.getString("webUrl");
                 String newsDate = currentNews.getString("webPublicationDate");
 
