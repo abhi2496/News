@@ -6,4 +6,26 @@
     <string name="testAuthor">Jim Kwik</string>
     <string name="testDate">15 aug</string>
     <string name="noNews">No News Available!</string>
+    <string name="settingsMenuItem">Settings</string>
+    <string name="settingsTitle">News Settings</string>
+
+    <!--page size-->
+    <string name="settingsPageSizeTitle">Page Size</string>
+    <string name="settingsPageSizeKey">pageSize</string>
+    <integer name="settingsPageSizeByDefault">10</integer>
+
+    <!--country wise-->
+    <string name="settingsSectionTitle">Section</string>
+    <string name="settingsSectionKey" translatable="false">section_name</string>
+    <string name="settingsSectionByDefault" translatable="false">world</string>
+    <!--topic-->
+    <string name="settingsOrderTitle">Order_By</string>
+    <string name="settingsOrderByKey" translatable="false">order_by</string>
+    <string name="settingsOrderByDefault" translatable="false">newest</string>
+    <!--sort for new-->
+    <string name="settingsOrderByNewestTitle">Newest</string>
+    <string name="settingsOrderByNewestKey" translatable="false">newest</string>
+    <!--sort for old-->
+    <string name="settingsOrderByOldestTitle">Older</string>
+    <string name="settingOrderByOldestKey" translatable="false">oldest</string>
 </resources>

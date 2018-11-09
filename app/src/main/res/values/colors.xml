@@ -5,5 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorTopic">#1e74ec</color>
     <color name="colorTitle">#e7ea3336</color>
-    <color name="cardBackground">#e6e5e5</color>
+    <color name="cardBackground">@android:color/white</color>
 </resources>
+    <!--#e6e5e5-->

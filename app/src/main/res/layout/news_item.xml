@@ -1,66 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/marginFiveDp"
-    app:cardBackgroundColor="@color/cardBackground"
-    app:cardCornerRadius="@dimen/cornerRadius"
-    app:cardMaxElevation="@dimen/elevation">
+    android:background="@drawable/background_gradient">
 
-    <LinearLayout
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/newsTopic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginFiveDp"
-            android:textSize="@dimen/mediumText"
-            android:paddingStart="@dimen/paddingTenDp"
-            tools:text="@string/testTopic"
-            android:textColor="@color/colorTopic"/>
-
-        <TextView
-            android:id="@+id/newsTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginFiveDp"
-            android:layout_marginBottom="@dimen/marginFiveDp"
-            android:paddingStart="@dimen/paddingTenDp"
-            android:paddingEnd="@dimen/paddingTenDp"
-            android:textSize="@dimen/largeText"
-            tools:text="@string/testTitle"
-            android:textColor="@color/colorTitle"/>
+        android:layout_margin="@dimen/marginFiveDp"
+        app:cardBackgroundColor="@color/cardBackground"
+        app:cardCornerRadius="@dimen/cornerRadius"
+        app:cardMaxElevation="@dimen/elevation">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/marginFiveDp"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/newsAuthor"
-                android:layout_width="@dimen/zeroDp"
+                android:id="@+id/newsTopic"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="@dimen/mediumText"
+                android:layout_marginTop="@dimen/marginFiveDp"
                 android:paddingStart="@dimen/paddingTenDp"
-                tools:text="@string/testAuthor" />
+                android:textColor="@color/colorTopic"
+                android:textSize="@dimen/mediumText"
+                tools:text="@string/testTopic" />
 
             <TextView
-                android:id="@+id/newsDate"
-                android:layout_width="@dimen/zeroDp"
+                android:id="@+id/newsTitle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="end"
-                android:textSize="@dimen/smallText"
+                android:layout_marginTop="@dimen/marginFiveDp"
+                android:layout_marginBottom="@dimen/marginFiveDp"
+                android:paddingStart="@dimen/paddingTenDp"
                 android:paddingEnd="@dimen/paddingTenDp"
-                tools:text="@string/testDate" />
-        </LinearLayout>
-    </LinearLayout>
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/largeText"
+                tools:text="@string/testTitle" />
 
-</android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginFiveDp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/newsAuthor"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="@dimen/paddingTenDp"
+                    android:textSize="@dimen/mediumText"
+                    tools:text="@string/testAuthor" />
+
+                <TextView
+                    android:id="@+id/newsDate"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:paddingEnd="@dimen/paddingTenDp"
+                    android:textSize="@dimen/smallText"
+                    tools:text="@string/testDate" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

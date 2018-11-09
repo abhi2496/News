@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settingsTitle">
+
+    <ListPreference
+        android:defaultValue="@string/settingsOrderByDefault"
+        android:entries="@array/Settings_Order_By_Title"
+        android:entryValues="@array/Settings_Order_By_Key"
+        android:key="@string/settingsOrderByKey"
+        android:title="@string/settingsOrderTitle"/>
+    <EditTextPreference
+        android:defaultValue="@string/settingsSectionByDefault"
+        android:inputType="text"
+        android:key="@string/settingsSectionKey"
+        android:title="@string/settingsSectionTitle"/>
+
+
+</PreferenceScreen>

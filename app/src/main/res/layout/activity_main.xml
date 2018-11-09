@@ -7,7 +7,10 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        android:drawSelectorOnTop="true"
+        android:divider="@null"
+        android:layout_margin="@dimen/marginFiveDp"/>
 
     <!-- Empty view is only visible when the list has no items. -->
     <TextView
